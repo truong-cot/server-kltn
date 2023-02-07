@@ -6,7 +6,7 @@
 	"proxy": "http://localhost:8000",
 	"scripts": {
 		"dev": "nodemon ./src/index.ts -p 8000",
-		"build": "tsc -p .",
+		"build": "tsc ./src/index.ts",
 		"start": "node ./build/index.ts -p 8000",
 		"lint": "next lint"
 	},
